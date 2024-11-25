@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Nov 18, 2024 at 07:51 AM
+-- Generation Time: Nov 25, 2024 at 02:07 PM
 -- Server version: 10.6.20-MariaDB
 -- PHP Version: 8.3.13
 
@@ -39,7 +39,8 @@ CREATE TABLE `Pokemon` (
 --
 
 INSERT INTO `Pokemon` (`pokemon_id`, `pokeName`, `pokePic`, `pokeDex`) VALUES
-(1, 'Gliscor', 'gliscor.jpg', 'Its flight is soundless. It uses its lengthy tail to carry off its prey... Then its elongated fangs do the rest.');
+(1, 'Gliscor', 'gliscor.jpg', 'Its flight is soundless. It uses its lengthy tail to carry off its prey... Then its elongated fangs do the rest.'),
+(2, 'Glaceon', 'glaceon.jpg', 'By controlling its body heat, it can freeze the atmosphere around it to make a diamond-dust flurry.');
 
 --
 -- Indexes for dumped tables
@@ -59,7 +60,7 @@ ALTER TABLE `Pokemon`
 -- AUTO_INCREMENT for table `Pokemon`
 --
 ALTER TABLE `Pokemon`
-  MODIFY `pokemon_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `pokemon_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
